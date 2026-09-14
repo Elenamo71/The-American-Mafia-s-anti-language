@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Slurs</title>
+        <author>you@example.org</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>you@example.org</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Tagset: Slurs</p>
+        <ab>
+          <fs xml:id="CATMA_TECH_DESC">
+            <f name="version">
+              <string>5</string>
+            </f>
+          </fs>
+        </ab>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <fsdDecl xml:id="CATMA_EC3269CA-10C8-4219-817E-551697B8D9E5" n="Slurs 2026-09-14T11:04:46.000+0200">
+        <fsDecl xml:id="CATMA_5FF3ED36-FA9A-4FE1-9D73-2496DA5281FC" n="2026-09-14T11:04:46.000+0200" type="CATMA_5FF3ED36-FA9A-4FE1-9D73-2496DA5281FC">
+          <fsDescr>Slur</fsDescr>
+          <fDecl xml:id="CATMA_03B65D71-6443-4683-BFC3-658EB0040F05" name="catma_markupauthor">
+            <vRange>
+              <vColl>
+                <string>you@example.org</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_F521FD4B-F33A-479C-B469-BCCFCF437DB6" name="catma_displaycolor">
+            <vRange>
+              <vColl>
+                <string>-6795613</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_8AB15189-6613-424F-B85B-2E295DBED1F3" name="category">
+            <vRange>
+              <vColl>
+                <string>institutional</string>
+                <string>ethnic</string>
+                <string>pedigree</string>
+                <string>taboo_intensifier</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_C2F06122-DD60-4C2F-AB74-B5239A2ACE23" name="sentiment">
+            <vRange>
+              <vColl>
+                <string>neutral</string>
+                <string>hostile</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_0E2D46D7-584F-474E-B2C5-C8B0C1D26C98" name="referent_group">
+            <vRange>
+              <vColl>
+                <string>ingroup</string>
+                <string>outgroup</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+        </fsDecl>
+      </fsdDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body/>
+  </text>
+</TEI>

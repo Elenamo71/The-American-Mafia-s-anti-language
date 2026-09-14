@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Context</title>
+        <author>you@example.org</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>you@example.org</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Tagset: Context</p>
+        <ab>
+          <fs xml:id="CATMA_TECH_DESC">
+            <f name="version">
+              <string>5</string>
+            </f>
+          </fs>
+        </ab>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <fsdDecl xml:id="CATMA_84E00F18-2BB9-42FD-A74B-A352CCF1321F" n="Context 2026-09-14T11:04:46.000+0200">
+        <fsDecl xml:id="CATMA_B341243A-A7C2-437C-8793-65384A4C45AA" n="2026-09-14T11:04:46.000+0200" type="CATMA_B341243A-A7C2-437C-8793-65384A4C45AA">
+          <fsDescr>Marker</fsDescr>
+          <fDecl xml:id="CATMA_6B2025C3-EB68-42FB-AFCE-6B20639F6C89" name="catma_markupauthor">
+            <vRange>
+              <vColl>
+                <string>you@example.org</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_ABB9B5D4-9C14-4E7C-B8E8-CE1E0EA34223" name="catma_displaycolor">
+            <vRange>
+              <vColl>
+                <string>-5876184</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_8D0D2BD6-023B-40A7-97F0-58D8B603FE33" name="speaker_role">
+            <vRange>
+              <vColl>
+                <string>boss</string>
+                <string>capo</string>
+                <string>soldier</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_9D5F39E8-8815-42F8-8AB5-56F91FC6A188" name="situation">
+            <vRange>
+              <vColl>
+                <string>business_deal</string>
+                <string>conflict_resolution</string>
+                <string>induction</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_3AACAADF-9B44-4976-80FB-C03BA597E0C7" name="org_context">
+            <vRange>
+              <vColl>
+                <string>intra_family</string>
+                <string>inter_family</string>
+                <string>civilian</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+        </fsDecl>
+      </fsdDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body/>
+  </text>
+</TEI>
