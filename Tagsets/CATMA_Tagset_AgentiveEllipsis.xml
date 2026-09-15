@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>AgentiveEllipsis</title>
+        <author>you@example.org</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>you@example.org</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Tagset: AgentiveEllipsis</p>
+        <ab>
+          <fs xml:id="CATMA_TECH_DESC">
+            <f name="version">
+              <string>5</string>
+            </f>
+          </fs>
+        </ab>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <fsdDecl xml:id="CATMA_fba710dd-820b-4a61-8911-50f25ac0f575" n="AgentiveEllipsis 2026-09-15T11:11:33.000+0200">
+        <fsDecl xml:id="CATMA_9f322b55-e1b7-4854-a73a-6fee3cefa073" n="2026-09-15T11:11:33.000+0200" type="CATMA_9f322b55-e1b7-4854-a73a-6fee3cefa073">
+          <fsDescr>SuppressedAgent</fsDescr>
+          <fDecl xml:id="CATMA_C1D2E3F4-A5B6-4780-9C01-D23E45F60789" name="catma_markupauthor">
+            <vRange>
+              <vColl>
+                <string>you@example.org</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_C1D2E3F4-A5B6-4781-9C01-D23E45F60789" name="catma_displaycolor">
+            <vRange>
+              <vColl>
+                <string>-1828324</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_e9ecce67-4fc1-4189-aad6-bb41d13c5f85" name="agent_recoverable">
+            <vRange>
+              <vColl>
+                <string>yes</string>
+                <string>no</string>
+                <string>ambiguous</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+        </fsDecl>
+      </fsdDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body/>
+  </text>
+</TEI>

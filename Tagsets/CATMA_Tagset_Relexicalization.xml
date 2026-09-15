@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Relexicalization</title>
+        <author>you@example.org</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>you@example.org</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Tagset: Relexicalization</p>
+        <ab>
+          <fs xml:id="CATMA_TECH_DESC">
+            <f name="version">
+              <string>5</string>
+            </f>
+          </fs>
+        </ab>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <fsdDecl xml:id="CATMA_0174d7bf-9fb1-4800-a32e-37ef441fc46e" n="Relexicalization 2026-09-15T11:11:33.000+0200">
+        <fsDecl xml:id="CATMA_4203bce1-483d-408b-b2e2-1708525b12e5" n="2026-09-15T11:11:33.000+0200" type="CATMA_4203bce1-483d-408b-b2e2-1708525b12e5">
+          <fsDescr>ViolenceVerb</fsDescr>
+          <fDecl xml:id="CATMA_F4A5B6C7-D8E9-4012-8F34-056178292013" name="catma_markupauthor">
+            <vRange>
+              <vColl>
+                <string>you@example.org</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_F4A5B6C7-D8E9-4013-8F34-056178292013" name="catma_displaycolor">
+            <vRange>
+              <vColl>
+                <string>-1828324</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_d6793b18-9710-4c31-a088-03e6eb08492b" name="semantic_field">
+            <vRange>
+              <vColl>
+                <string>corrective</string>
+                <string>blunt_assault</string>
+                <string>lethal</string>
+                <string>severe_harm</string>
+                <string>edged_piercing</string>
+                <string>asphyxiation</string>
+                <string>generic</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+          <fDecl xml:id="CATMA_9d8c7b6a-2e4f-4a1b-83c5-0e6d9f2a4b71" name="weapon_mediation">
+            <vRange>
+              <vColl>
+                <string>yes</string>
+                <string>no</string>
+              </vColl>
+            </vRange>
+          </fDecl>
+        </fsDecl>
+      </fsdDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body/>
+  </text>
+</TEI>
