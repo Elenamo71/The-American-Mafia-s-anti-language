@@ -1,0 +1,18 @@
+id,claim,thesis_location,reported_value,source_for_reproduction,status
+R01,Directives unmitigated / total (Mafia),Table 8.7-8.8,146/149 (98.0%),data/reported/table_8_7_directives_by_file.csv,reproducible from counts
+R02,SBCSAE directives unmitigated / total,Table 8.8,10/88 (11.4%),data/reported/table_8_8_sbcsae_baseline.csv,reproducible from counts; line-level coding not deposited
+R03,Fisher exact OR (95% CI),Table 8.9,313 [91; 1082],code/stats_contingency.py,matches Haldane-Anscombe +0.5 OR with Woolf CI (not the exact conditional OR)
+R04,Pearson chi-square (df=1),Table 8.9,184.5,code/stats_contingency.py,exact match (no continuity correction)
+R05,Log-likelihood G2 (df=1),Table 8.9,212.7,code/stats_contingency.py,exact match
+R06,Modal orientation intra vs inter: OR / CI / Fisher p,Table 8.13 fn 57,3.0 [0.14; 64.3]; p=.51,code/stats_contingency.py,matches uncorrected sample OR with Woolf CI; p exact match
+R07,Deontic : epistemic modals,§9.4,151:40 (3.8:1),annotation/concordances/modals_*_appendix_*.csv,Appendix L prints 157 rows (151 if the 6 'supposed to' rows are excluded); Appendix M prints 39 rows
+R08,High-value : median/low deontic,§9.4,134:17 (7.9:1),annotation/concordances/modals_deontic_appendix_L.csv,reproduced exactly when 'supposed to' is excluded
+R09,gotta/got to tokens,§9.4,65,annotation/concordances/modals_deontic_appendix_L.csv,exact match (Appendix L)
+R10,must tokens,§9.4,1,corpus/raw + Appendix L,exact match
+R11,I : we,§9.3 / Table 3 resumen,673:141 (4.8:1),code/corpus_frequencies.py,deposited corpus gives 667:141 with clitics split
+R12,guy / thing (vague reference),Table 8.4,113 / 49,code/corpus_frequencies.py,deposited corpus: guy 112 / thing 46 (+ things 12) — check whether plural forms were included
+R13,Expressive directness D1 / D3 share,§8.4.2,55% [40-70] / 39% [26-55],code/stats_contingency.py,exact match (Wilson intervals)
+R14,Violence : business resolution terms,Table 9.4,13.3:1,annotation/concordances/relexicalization.csv (TO DEPOSIT),needs manual inventory export
+R15,Ideology : taboo keywords,Table 3 resumen,283:241 (1.17:1),annotation/concordances/keyness_categories.csv (TO DEPOSIT),needs keyword list + manual categorisation
+R16,Keyness of gotta (G2),Resumen §7,2590.1,code/keyness.py + OANC Spoken frequency list,needs reference wordlist and Sketch Engine settings
+R17,Intra-rater agreement (organizational context),Appendix N,72.2% (13/18 files); kappa=0.21,annotation/reliability/pass1_pass2_file_level.csv (TO FILL),needs pass-1/pass-2 labels per file

@@ -1,0 +1,5 @@
+# Keep transcripts byte-identical (CRLF preserved, checksums stay valid)
+corpus/raw/*.txt -text
+*.csv text eol=lf
+*.md  text eol=lf
+*.py  text eol=lf

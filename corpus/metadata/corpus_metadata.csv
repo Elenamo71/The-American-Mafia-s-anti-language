@@ -1,19 +1,19 @@
-file_id,docket_number,court,jurisdiction,year,words,notes
-CA2C_001,,U.S. Court of Appeals 2nd Cir.,,,,
-EDNY_001,,E.D.N.Y.,,,,
-EDNY_002,,E.D.N.Y.,,,,
-EDNY_003,,E.D.N.Y.,,,,
-EDNY_004,,E.D.N.Y.,,,,
-EDNY_005,,E.D.N.Y.,,,,
-EDNY_006,,E.D.N.Y.,,,,
-EDNY_007,,E.D.N.Y.,,,,
-EDNY_008,,E.D.N.Y.,,,,
-EDNY_009,,E.D.N.Y.,,,,
-EDNY_010,,E.D.N.Y.,,,,
-EDNY_011,,E.D.N.Y.,,,,
-NJ_001,,D.N.J.,,,,
-NJ_002,,D.N.J.,,,,
-PE_001,,E.D. Pa.,,,,
-PE_002,,E.D. Pa.,,,,
-PE_003,,E.D. Pa.,,,,
-SDNY_001,,S.D.N.Y.,,,,
+file_id,table_1_3_row,year,state_or_circuit,court,case_date,case_number,family,speakers,words_thesis_table_1_3,words_repo,tokens_repo_clitics_split,diff_words_repo_vs_thesis,sha256,notes
+CA2C_001,1,2006,U.S. Court of Appeals,Second Circuit,2006-07-12,"Docket Nos. 04-2746-CR(L), 04-2960-CR(XAP), 04-4217-CR(CON), 04-4842-CR(CON), 04-5071-CR(CON), 06-0726-CR(CON)",Gambino,"Ciccone, Nasso, Gotti",1494,1515,1613,21,680e04eb501cda01480e80ce6587748a4e63a9bc5046bb79ce069cfb40c3513b,
+EDNY_001,2,2020,New York,Eastern District,2020-10-06,18-CR-337-2 (WFK),Colombo,Maratea Difalco defendants,97,97,106,0,475d14e5218ebf9d447f39734ad9f88fc59d6cb9a07aa6d73911f58ec5554347,
+EDNY_002,3,2012,New York,Eastern District,2012-01-04,10-cr-929(S-1) (ILG),Genovese,Cafaro/D'Urso,1414,1418,1512,4,c23fefa21ca43c4124045ebded58222aed3d7db195a463d2a3a5610e189e585b,
+EDNY_003,4,2011,New York,Eastern District,2011-01-20,11-cr-30 (SLT),Colombo,"Andrew & Anthony Russo, Joseph Savarese",934,936,971,2,98ef36b7a25e176339f66e6a2a2762b10c1a01c8820731621c9cda4784e0b8b7,
+EDNY_004,5,2011,New York,Eastern District,2011-01-20,11-Cr-0003 (DLI),Gambino,"Licata, Dragonetti",303,303,320,0,bee7630498e3ee06d1dca00c0916849d711918439e52622171a09616f9a33056,
+EDNY_005,6,2011,New York,Eastern District,2011-01-20,Criminal docket 11-0026 (JG),Genovese,"Mazzella, Cilenti, Pace",881,887,950,6,a7649a77e94fda7eb82a3eeea14e8d4fbbf19c406c7b4325b9f7da8348c46a96,
+EDNY_006,7,2023,New York,Eastern District,2023-11-08,23-cr-00443-FB,Gambino,"Lanni, Rappa, Tantillo",198,199,204,1,58c052b7407a52d230f5df6907b2477c24f30e0a3603ac05d0c388ace2d7c9c1,
+EDNY_007,8,2014,New York,Eastern District,2014-01-23,14-CR-26 (ARR),Bonanno,"Vincent Asaro, Jerome Asaro, Jack Bonventre, Thomas Di Fiore, John Ragano",2362,2385,2498,23,bd17f19948b993cd78e563f9624fb7d0bf7355f9a6844f613095d73036075cfd,
+EDNY_008,9,2008,New York,Eastern District,2008-02-07,08-cr-00076-JBW,Gambino,"Cali, Eugene Gotti, Carneglia",585,587,625,2,70886ed0e94a1a5be77cc24e51fa3dca3a0333616f09fc9f13511f60852d86bd,Same docket as EDNY_010 (08-cr-00076-JBW); confirm these are distinct filings.
+EDNY_009,10,2017,New York,Eastern District,2017-12-12,17-cr-00522-SJF,Gambino/Bonanno,"Salerno, Saldino, Damelio, Ambrosio",1255,1275,1324,20,43e8336c71f48b588fbbd6128b6645c1bf6aeb662e48bb65b67793eb6588843c,
+EDNY_010,11,2008,New York,Eastern District,2008-03-08,08-cr-00076-JBW,Gambino,"Dragonetti, John Doe, Di Maria",246,246,260,0,80541c6517b932251d6007c2812849df8c4a45ba4fac372d577483f33067ced9,Same docket as EDNY_008 (08-cr-00076-JBW); confirm these are distinct filings.
+EDNY_011,12,2014,New York,Eastern District,2014-10-01,11-cr-00824-JS,Gambino,"Dominic Cefalu, Salvatore Gerrato, Frank Lonigro (associates of the Gambino family)",413,414,443,1,63e79154e36aafeef4806761a1bacd797447269b977d44483ee05f19f8024e35,
+NJ_001,13,2011,New Jersey,District Court,2011-10-26,Crim. No. 11-740 (RBK)/2008R01468,Lucchese,Scarfo/Pelullo/Maxwell/Adler,1444,1422,1474,-22,4e95d7b56e911b14c4f1011a0e3429535438d8c94399ab234066e5e1f19ab5d1,Table 1.3 prints '2008ROl468' (letter O/l); normalised here to 2008R01468 — verify.
+NJ_002,14,2010,New Jersey,District Court,2010-03-06,10 Cr. 851,Genovese,"Aulisi, Coppola",1372,893,933,-479,ff3361006dad894b75a5f6005002b794390c6cbb8c71eba0862d849c4ad64af7,Deposited file has ~479 fewer words than Table 1.3 reports; verify against PACER source (truncation vs. Table 1.3 error).
+PE_001,15,2019,Pennsylvania,Eastern District,2019-07-29,Criminal action no. 09-00496-04,Philadelphia Bonanno,"Troini, Massimino",117,119,122,2,ddff1cf13c6a983200b8d67dc8e71323fbb5a72cc8b4b846b66fb2af01d5e27a,
+PE_002,16,2015,Pennsylvania,3rd Circuit Appeal,2015-09-10,"13-3221, 13-3263, & 13-3383",Philadelphia,"Massimino, Battaglini",161,163,176,2,c966869df6f8ad5483e1377fe33cca59dce3068e1371bf514b51043577cb37d5,
+PE_003,17,2020,Pennsylvania,Eastern District,2020-11-27,19-cr-00071-RBS,Philadelphia,Stephen Mazzone (Philadelphia LCN underboss),88,88,99,0,297097686bb5e878d9a2372e665f63d73c31875cb57de39b98b6949e9f470426,
+SDNY_001,18,2016,New York,Southern District,2016-08-04,16-cr-00522-RJS,Genovese,Pasquale Parrello (believed Genovese capo),708,719,763,11,0be28c29520a6624e09009efe40af6652bc1c6da181970a413b593eff5adcf13,Ch. 8 (Examples 8.6/8.7) attributes SDNY_001 speech to Harold Thomas (Lucchese); Table 1.3 lists Parrello (Genovese). Reconcile speaker/family.

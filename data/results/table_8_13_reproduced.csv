@@ -1,0 +1,2 @@
+comparison,a,b,c,d,fisher_p_two_sided,chi2_pearson,chi2_p,chi2_yates,chi2_yates_p,G2_loglik,G2_p,OR_conditional_mle,OR_conditional_ci_low,OR_conditional_ci_high,OR_sample,OR_sample_woolf_low,OR_sample_woolf_high,OR_haldane,OR_haldane_woolf_low,OR_haldane_woolf_high
+Prospective/Retrospective x Intra/Inter-family (2x2 sub-table),9,3,1,1,0.505495,0.525,0.468717,0.0,1.0,0.482916,0.487104,2.738613,0.028722,261.120174,3.0,0.140053,64.261516,2.714286,0.206975,35.595407
