@@ -1,0 +1,19 @@
+row,file_id,speaker,role,utterance_or_description,verbatim_status,speech_act,modal_orientation,org_context
+1,CA2C_001,Peter Gotti,Acting Boss (Gambino),"""I'm gonna tell him... he's gonna have to do it.""",not in transcripts,Commissive,Prospective,Intra-Family
+2,EDNY_001,Vito Difalco,Soldier (Colombo),"""I'm gonna make him punish you...""",verbatim,Commissive,Prospective,Intra-Family
+3,EDNY_002,Michael D’Urso,CW / Associate,"""They're gonna start telling people...""",not in transcripts,Directive,Prospective,Intra-Family
+4,EDNY_003,Andrew Russo,Acting Boss (Colombo),[Extortion of Gambino gambling club],paraphrase,Commissive,Prospective,Inter-Family
+5,EDNY_004,William Scotto,Member (Gambino),Implied threats regarding extortion,paraphrase,Commissive,Prospective,Intra-Family
+6,EDNY_005,Glenn Mazzella,Associate (Genovese),"""Place where we can squeeze somebody...""",verbatim,Directive,Prospective,Intra-Family
+7,EDNY_006,Vito Rappa,Member (Gambino),"""I'm gonna cut you in half...""",not in transcripts,Commissive,Prospective,Inter-Family
+8,EDNY_007,Thomas Di Fiore,Acting Boss (Genovese),"[Mediation of ""Bazoo"" dispute]",paraphrase,Directive,Other (Present),Inter-Family
+9,EDNY_008,Domenico Cefalu,Underboss (Gambino),[Coordination with Sicilian Mafia],paraphrase,Directive,Other (Status),Inter-Family
+10,EDNY_009,Saladino,Member (Bonanno),"""I'll go over there... and straighten that out.""",partly verbatim,Commissive,Prospective,Intra-Family
+11,EDNY_010,Vincent Dragonetti,Member (Gambino),"""You’re never gonna get nowhere.""",verbatim,Commissive,Prospective,Intra-Family
+12,EDNY_011,Dominic Cefalu,Member (Gambino),"""Demand for 60% of profits""",not in transcripts,Directive,Other (Present),Intra-Family
+13,NJ_001,Nicodemo Scarfo,Member (Lucchese),[Joint takeover with Philly faction],paraphrase,Directive,Prospective,Inter-Family
+14,NJ_002,Stephen Depiro,Acting Capo (Genovese),"[Demands for Christmas ""Tribute""]",paraphrase,Directive,Prospective,Intra-Family
+15,PE_001,Joseph Massimino,Consigliere (Phila),"[The ""Summons"" regarding unpaid debt]",paraphrase,Directive,Other (Present),Intra-Family
+16,PE_002,"Anthony Staino, Jr.",Member (Phila),[Participation in M&P Vending/Laundering],paraphrase,Commissive,Retrospective,Intra-Family
+17,PE_003,Steven Mazzone,Underboss (Phila),[Oversight of Capos and Soldiers],paraphrase,Directive,Prospective,Intra-Family
+18,SDNY_001,Pasquale Parrello,Captain (Genovese),"""He should've known better.""",not in transcripts,Commissive,Retrospective,Inter-Family

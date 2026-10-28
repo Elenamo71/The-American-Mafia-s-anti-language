@@ -1,0 +1,21 @@
+name: reproduce
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pytest
+      - name: Verify transcript checksums
+        run: sha256sum -c corpus/metadata/SHA256SUMS
+      - name: Regression tests (numbers printed in the thesis)
+        run: pytest -q
+      - name: Full reproduction run
+        run: python code/run_all.py

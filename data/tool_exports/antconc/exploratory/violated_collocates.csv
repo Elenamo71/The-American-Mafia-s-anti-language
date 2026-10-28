@@ -1,0 +1,5 @@
+Collocate,Rank,Freq(Scaled),FreqLR,FreqL,FreqR,Range,Likelihood,Effect
+reasons,1,20,3,2,1,1,33780,9375
+of,2,1300,4,2,2,1,13971,3767
+got,3,930,3,3,0,1,10650,3835
+fault,4,10,1,0,1,1,10326,8790
