@@ -171,3 +171,79 @@ the thesis*.
 | Keyness *gotta* G² = 2,590.1 | Sketch Engine export + settings, or an OANC frequency list for `code/keyness.py` |
 | 5.7:1 agency-shift ratio | PronounVerb spreadsheet |
 | κ = 0.21 per file | `annotation/reliability/pass1_pass2_file_level.csv` |
+
+## F. Findings from the recovered working files (added 28 Oct 2026)
+
+**F1. Table 8.13 is a file-level classification, not a census of 18 tokens.**
+The pass-2 coding (`annotation/reliability/intra_rater_pass2_rows.csv`)
+reproduces Table 8.13 cell for cell (9/3, 1/1, 2/2), but it has one row per
+transcript file, and:
+
+* 10 of the 18 rows are bracketed descriptions of the situation, e.g.
+  *[Mediation of "Bazoo" dispute]*, *[Oversight of Capos and Soldiers]*, not
+  utterances;
+* 4 of the 8 quoted rows are **not found in the deposited transcripts**:
+  CA2C_001 *"I'm gonna tell him… he's gonna have to do it"*, EDNY_002 *"They're
+  gonna start telling people…"*, EDNY_006 *"I'm gonna cut you in half…"*,
+  SDNY_001 *"He should've known better."* Pass 1 adds three more that are not
+  found (*"You're a made man, you gotta do what you're told"*, *"I should've
+  cracked him"*, *"I'm gonna dissolve you"*);
+* the retrospective inter-family row for SDNY_001 is *"He should've known
+  better"* (Parrello). The transcript and Chapter 8 instead have *"I should've
+  punched his head in then"*.
+
+§ 8.3.2 describes Table 8.13 as "a complete census of the eighteen modal-marked
+threat tokens". *Fix (choose one):* (a) re-code Table 8.13 at token level from
+the transcripts, with each row quoting an utterance verbatim (candidates can be
+drawn from Appendices J and L), and re-run `code/stats_contingency.py`; or
+(b) keep the counts and describe the table as a classification of the dominant
+threat/directive act per file, replace each quotation that is not in the
+transcripts with a verbatim one, and mark the descriptive rows as such. Because
+the contrast is already reported as non-significant, either route leaves the
+conclusions intact.
+
+**F2. Intra-rater agreement: the unit and the rule.** With the recovered pass
+data, 13/18 and κ = 0.211 reproduce exactly (`code/table_8_13_from_passes.py`),
+under two rules that the thesis should state:
+(i) a file's pass-1 label is the label of its first coded row (EDNY_007 has an
+intra-family row (Asaro) before an inter-family row (Di Fiore));
+(ii) EDNY_011, left blank in pass 1, is counted as intra-family. If the blank is
+treated as missing, agreement is 12/18 and κ = 0.14. Pass 1 and pass 2 also
+code *different* representative acts for some files (EDNY_006: Rappa vs Rappa
+plus Tantillo; EDNY_007: Asaro vs Di Fiore), so the check compares file
+labels, not the same tokens. The five disagreements (EDNY_006, EDNY_007,
+EDNY_008, NJ_001, SDNY_001) are all intra → inter, as § 1.4.3 states.
+
+**F3. Table 9.5 reproduces, with one exception.** The violence-verb inventory
+gives 51 tokens and 28 types, and every field subtotal and the per-10,000 rates
+match. It marks *banged up* as weapon-mediated, so it has 12 weapon-mediated
+tokens; Table 9.5 has 11 (corrective field = 0). The inventory records counts but
+not which lines were counted: the transcripts contain more forms of most
+verbs than were counted (e.g. *straighten\** 7 vs 2; *kill\** 9 vs 2; *stab\** 7
+vs 2), presumably because non-violent or reported uses were excluded. § 9.2.2
+also says *straighten out* "appears 7 times… in 100% of instances" as a
+resolution term, but Table 9.5 counts 2. *Fix:* mark the counted lines in
+`annotation/concordances/violence_verbs_candidates.csv`.
+
+**F4. Table 9.9, the *we* column, does not reproduce.** From the transcripts:
+*I want* 37 ✓, *I told* 17 ✓, *I know* 22 (23), *I don't* 72 (79); *we are* +
+*we're* 27 ✓, *we do* 4 ✓, but *we gotta* = 3 (+ *we got to* 4) against 16, and
+*we have/had to* = 2 against 12. The working sheet has placeholders (`[High]`,
+`[Med]`), not counts. The "28 instances" of obligation *we* in § 9.3.2 therefore
+cannot be recovered. *Fix:* deposit the AntConc collocate output or correct the
+counts (*we gotta/got to* 7; *we have/had to* 2).
+
+**F5. The AntConc keyword list was run on 15 files.** Range never exceeds 15,
+and *gotta* = 42 equals the count without EDNY_008/010/011. The reference corpus
+(≈ 1.02 M tokens) is not named. The *gotta* G² = 2,590.1 in the thesis is not from
+this export (AntConc LL = 324.2). See `data/tool_exports/README.md`.
+
+**F6. Superseded analyses in the working files (not deposited).** An earlier
+directive comparison used a borrowed business baseline (35% unmitigated / 25%
+orders; χ² = 90.82 and 80.62) and earlier counts (123 directives, 5 mitigated;
+*I* 835, *we* 163). The thesis replaced these with the purpose-built SBCSAE baseline (§ 8.2.2).
+Two versions of a threat-category count (15/8/6 vs 27/11/9) match neither
+Table 8.3 nor Table 8.14. **No working data was found for** Table 8.3 (16 veiled
+threats), Table 8.14 (5 manipulative / 13 retaliative), Table 9.3 (negativity
+score), Table 9.4 (93 : 7), the 5.7 : 1 agency-shift ratio, or the ideology : taboo
+283 : 241 ratio.

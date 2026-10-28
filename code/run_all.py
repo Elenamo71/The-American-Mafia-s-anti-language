@@ -11,6 +11,8 @@ STEPS = [
     ("Chapter 8 inferential statistics", "stats_contingency.py", []),
     ("Figure 9.4 (as published)", "pay_collocation.py", ["--thesis"]),
     ("Intra-rater kappa (published figures)", "reliability.py", ["--demo"]),
+    ("Table 8.13 and intra-rater agreement from the deposited passes", "table_8_13_from_passes.py", []),
+    ("Table 9.5 from the violence-verb inventory", "table_9_5_violence.py", []),
 ]
 for title, script, args in STEPS:
     print(f"\n=== {title} ({script}) ===")

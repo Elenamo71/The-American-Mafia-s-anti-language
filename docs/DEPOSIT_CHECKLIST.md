@@ -18,10 +18,15 @@ and **(R3)** answer Fernández Cruz's recommendations 2 and 3.
 - [ ] Export the full concordance spreadsheets (all 149 directives, PronounVerb, Slur, ViolenceVerb, keyword categories, PAY lines) → `annotation/concordances/` **(R3)**
 - [ ] Add the 88 SBCSAE directive codes (transcript + line references if the SBCSAE licence does not allow excerpts)
 - [ ] Fix the appendix rows flagged in DISCREPANCIES C1–C4, or annotate them
+- [ ] Mark the counted lines in `violence_verbs_candidates.csv` (Table 9.5); decide whether *banged up* is weapon-mediated (F3)
+- [ ] Table 9.9 *we* column: deposit the AntConc output or correct the counts (F4)
+- [ ] Name the AntConc reference corpus (≈ 1.02 M tokens) in `data/tool_exports/README.md` (F5)
+- [ ] Re-export Sketch Engine keywords as CSV with scores and settings
 
 ## Reliability **(R2)**
 - [ ] Settle the **⚑ decide** rules in `annotation/scheme/codebook.md`
-- [ ] Fill `annotation/reliability/pass1_pass2_file_level.csv` with the real per-file labels
+- [x] Pass-1 / pass-2 data recovered and deposited; 13/18 and κ = 0.21 reproduce
+- [ ] Decide how to handle Table 8.13 (DISCREPANCIES F1): re-code at token level, or re-describe it and replace the quotes that are not in the transcripts
 - [ ] Recruit a second coder; run the calibration round; code `sample_for_coder.csv` blind
 - [ ] `python code/reliability.py …` for each layer; report κ, AC1, PABAK and the confusion matrix in § 1.4.3
 

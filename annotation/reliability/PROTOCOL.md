@@ -7,8 +7,10 @@ depend on them.
 
 **Current state** (thesis § 1.4.3, Appendix N): only *organizational context*
 and *modal orientation* were re-checked. That check was an intra-rater second pass
-at **file level**: 13 of 18 files agree (72.2%), κ = 0.21. The published figures
-fix the confusion matrix uniquely (`python code/reliability.py --demo`):
+at **file level**: 13 of 18 files agree (72.2%), κ = 0.21. The actual pass data
+are now deposited (`intra_rater_pass1_rows.csv`, `intra_rater_pass2_rows.csv`,
+`pass1_pass2_file_level.csv`), and `python code/table_8_13_from_passes.py`
+reproduces the published figures from them. The confusion matrix is:
 
 | | Pass 2 intra | Pass 2 inter |
 |---|---|---|
@@ -80,5 +82,6 @@ but not as a substitute for an independent human coder.
 |---|---|
 | `sample_for_coder.csv` | Blinded units (context + target) with empty code columns |
 | `sample_key.csv` | Thesis label per unit. **Not committed until coding is finished** (listed in `.gitignore`); regenerate it locally with the same seed. Replace it with the CATMA labels once those are exported. |
-| `pass1_pass2_file_level.csv` | Template: fill in the actual per-file labels behind the 72.2% / κ = 0.21 |
+| `intra_rater_pass1_rows.csv`, `intra_rater_pass2_rows.csv` | The two passes as coded, one row per coded act, with `verbatim_status` checked against the transcripts |
+| `pass1_pass2_file_level.csv` | File-level labels behind the 72.2% / κ = 0.21 (rules in `docs/DISCREPANCIES.md`, F2) |
 | `<layer>.csv` | One per layer: `unit_id,thesis,coder2` |

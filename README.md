@@ -43,8 +43,9 @@ Points where the deposit and the thesis text disagree: [`docs/DISCREPANCIES.md`]
 | `annotation/reliability/` | Reliability protocol, the intra-rater pass, the second-coder sample | Markdown, CSV |
 | `code/` | Analysis and figure scripts | Python |
 | `data/reported/` | Counts transcribed from the thesis tables (script inputs where raw coding is not yet deposited) | CSV |
+| `data/tool_exports/` | AntConc, Sketch Engine and Voyant outputs, with the corpus version each was run on | CSV, PNG/JPG |
 | `data/results/` | Script outputs | CSV, PNG |
-| `docs/` | Reproduction guide, discrepancies, data-availability text for the thesis, deposit checklist | Markdown |
+| `docs/` | Reproduction guide, discrepancies, provenance of deposited files, exploratory-experiment log, data-availability text, deposit checklist | Markdown |
 | `tests/` | Regression tests that pin the published numbers | pytest |
 
 ---
@@ -98,6 +99,9 @@ speech-act granularity.
 **Modality is not a manual annotation layer.** The modal census is a count from
 the wordlists; manual work was limited to disambiguating functionally ambiguous
 forms (e.g. *must* as obligation vs inference) before counting.
+
+The pilot tagset that preceded this scheme is kept in
+[`annotation/scheme/history/`](annotation/scheme/history/).
 
 **Coverage caveat.** The concordance-based layers are *keyword-seeded*. Only
 realisations retrieved by the keyword queries were coded, so frequencies are

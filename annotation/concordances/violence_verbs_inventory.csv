@@ -1,0 +1,32 @@
+verb,meaning_in_context,tokens,weapon_mediated_tokens,non_weapon_tokens,semantic_field_table_9_5,in_table_9_5
+Banged up,To be severely beaten or injured.,1,1,0,corrective,yes
+Blast,To shoot or hit with great force.,1,1,0,lethal,yes
+Bother,"To harass or trouble, often as a precursor to violence.",1,0,1,,no (excluded from Table 9.5)
+Choke,To strangle or cut off the breath of someone.,3,0,1,asphyxiation,yes
+Crack,"To strike a part of the body, usually the head, with a sharp, hard blow.",4,4,0,blunt assault,yes
+Crush,"To overwhelm or defeat completely, often with physical force.",1,0,1,severe harm,yes
+Cut,"To slice or sever, as with a knife or by taking air out of a tire.",1,1,0,edged-piercing,yes
+Die / Dying,The ultimate consequence of violence.,2,0,1,,no (excluded from Table 9.5)
+Fight,To engage in physical combat.,2,0,1,generic/precursor,yes
+Fuck up,A general but intense term for causing severe physical harm.,2,0,1,corrective,yes
+Hang,To suspend by the neck; also used in the context of hanging someone off a roof.,1,1,0,lethal,yes
+Hit,To strike with a blow.,2,0,1,blunt assault,yes
+Hurt,To cause physical pain or injury.,6,0,1,corrective,yes
+Jumped all over,To physically and verbally assault with overwhelming force.,1,0,1,blunt assault,yes
+Kick,To strike with the foot.,1,0,1,blunt assault,yes
+Kill,To cause the death of someone.,2,0,1,lethal,yes
+Maim,To wound or injure someone so that part of the body is permanently damaged.,2,0,1,severe harm,yes
+Pipe,To beat someone with a metal pipe.,2,2,0,blunt assault,yes
+Pummel,To strike repeatedly with the fists.,1,0,1,severe harm,yes
+Punch,To strike with a closed fist.,2,0,1,blunt assault,yes
+Punish,To inflict a penalty or suffering for an offense.,2,0,1,corrective,yes
+Put in a coma,To render someone unconscious for a prolonged period through violence.,1,0,1,severe harm,yes
+Put in the ground,A direct euphemism for killing and burying someone.,1,0,1,lethal,yes
+Rip,"To tear something apart violently (e.g., ""rip a new asshole"").",2,0,1,edged-piercing,yes
+Rob,To take property from a person by using force or threats.,1,0,1,,no (excluded from Table 9.5)
+Rough up,To treat someone in a physically aggressive way; to assault.,2,0,1,corrective,yes
+Stab,To pierce with a pointed weapon.,2,2,0,edged-piercing,yes
+Straighten out,A euphemism for physically assaulting someone to enforce compliance.,2,0,1,corrective,yes
+Surround,To encircle a person with the intent to trap and assault them.,1,0,1,generic/precursor,yes
+Throw off,Used in the context of throwing someone off a roof.,1,0,1,lethal,yes
+Whack,A common slang term for murdering someone.,2,0,1,lethal,yes

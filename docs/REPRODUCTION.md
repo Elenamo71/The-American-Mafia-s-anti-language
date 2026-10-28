@@ -20,9 +20,10 @@ method or the input needs a note in the thesis (see `DISCREPANCIES.md`) ·
 | Table 8.9 Fisher / χ² / G² | p < .001; 184.5; 212.7 | `stats_contingency.py` → `table_8_9_reproduced.csv` | as above | ✅ |
 | Table 8.9 OR | 313 [91, 1082] | `stats_contingency.py` | as above | 🟡 Haldane–Woolf, not Fisher's OR (A1) |
 | Table 8.13 + fn 57 | OR 3.0 [0.14, 64.3]; p = .51 | `stats_contingency.py` → `table_8_13_reproduced.csv` | `data/reported/table_8_13…` | ✅ (method differs from 8.9, A2) |
+| Table 8.13 counts from coding | 9/3, 1/1, 2/2 | `table_8_13_from_passes.py` | `annotation/reliability/intra_rater_pass2_rows.csv` | 🟡 counts reproduce exactly; unit is file-level and 4 quotes are not in the transcripts (F1) |
 | Table 8.14 | 5 / 13 | — (descriptive) | `data/reported/table_8_14…` | ✅ |
 | Figure 8.4 | 55% [40–70]; 39% [26–55] | `stats_contingency.py` → `expressive_directness_ci.csv` | `data/reported/figure_8_4…` | ✅ Wilson (A3) |
-| § 1.4.3 / App. N intra-rater | 72.2%; κ = 0.21 | `reliability.py --demo` | reconstructed matrix | ✅; ⛔ per-file labels |
+| § 1.4.3 / App. N intra-rater | 72.2%; κ = 0.21 | `table_8_13_from_passes.py` | `annotation/reliability/pass1_pass2_file_level.csv` | ✅ from the recovered pass data (rules in F2) |
 | § 9.3 *I* : *we* | 673 : 141 | `corpus_frequencies.py` → `modal_census.csv` | `corpus/raw/` | 🟡 667 : 141 |
 | § 9.4 deontic : epistemic | 151 : 40 | `corpus_frequencies.py` | `annotation/concordances/modals_*` | 🟡 157 : 39 printed; 151 with *supposed to* excluded (C4) |
 | § 9.4 high : low value | 134 : 17 | `corpus_frequencies.py` | `…modals_deontic_appendix_L.csv` | ✅ (excluding *supposed to*) |
@@ -30,7 +31,10 @@ method or the input needs a note in the thesis (see `DISCREPANCIES.md`) ·
 | Figure 9.4 (PAY collocates) | 7 / 6 / 5; 0 / 0 / 0 | `pay_collocation.py [--thesis]` | `corpus/raw/` | 🟡 direction reproduces; exact counts ⛔ PAY concordance (D2) |
 | Keyness (*gotta* G² = 2,590.1) | — | `keyness.py --reference …` | OANC Spoken frequency list | ⛔ reference list + settings |
 | Table 9.3 negativity score | — | — | slur/violence/taboo inventories | ⛔ |
-| Tables 9.4–9.5 (13.3 : 1) | — | — | violence-verb spreadsheet | ⛔ |
+| Table 9.5 | 51 tokens; 28 types; 36.2/10K | `table_9_5_violence.py` | `annotation/concordances/violence_verbs_inventory.csv` | 🟡 all exact except weapon 12 vs 11; line selection ⛔ (F3) |
+| Table 9.4 (13.3 : 1) | 93 : 7 | — | resolution-term inventory | ⛔ |
+| Table 9.9 | I want 37 … we gotta 16 | `corpus_frequencies.py` (manual check) | `corpus/raw/` | 🟡 *I* column reproduces; *we gotta*/*we have to* do not (F4) |
+| Table 9.10 | I don't want 21 … | — (tool export) | `data/tool_exports/antconc/i_dont_4grams.csv` | ✅ identical; top counts re-derived from corpus in tests |
 | Ideology : taboo 283 : 241 | — | — | keyword list + categories | ⛔ |
 | 5.7 : 1 agency shift | — | — | PronounVerb spreadsheet | ⛔ |
 | Figures 9.3, 9.5, 9.7, 9.8 | — | — | original figure scripts | ⛔ |

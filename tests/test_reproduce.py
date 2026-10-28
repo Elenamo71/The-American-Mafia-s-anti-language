@@ -70,3 +70,45 @@ def test_modal_census_section_9_4():
     assert int(m["gotta_got_to_rows"]) == 65
     assert int(m["must_rows"]) == 1
     assert int(m["we_tokens_corpus"]) == 141
+
+
+# ---- working-file data recovered on 2026-10-28 -------------------------------
+
+def test_reliability_from_deposited_passes():
+    import table_8_13_from_passes as t
+    r = t.reliability()
+    assert (r["agreements"], r["n_files"]) == (13, 18)
+    assert round(r["cohen_kappa"], 2) == 0.21
+
+
+def test_table_8_13_from_pass2_matches_published():
+    import table_8_13_from_passes as t
+    got = t.table_8_13()
+    pub = {r["modal_orientation"]: r for r in csv.DictReader((ROOT / "data/reported/table_8_13_modal_orientation.csv").open(encoding="utf-8"))}
+    for o, key in [("Prospective", "prospective"), ("Retrospective", "retrospective"), ("Other", "other")]:
+        assert got[(o, "Intra-Family")] == int(pub[key]["intra_family"])
+        assert got[(o, "Inter-Family")] == int(pub[key]["inter_family"])
+
+
+def test_table_9_5_from_inventory():
+    import table_9_5_violence as t
+    rows = {r["semantic_field"]: r for r in t.table()}
+    assert rows["TOTAL"]["tokens"] == 51 and rows["TOTAL"]["types"] == 28
+    assert rows["TOTAL"]["per_10k_words"] == 36.2
+    assert [rows[f]["tokens"] for f in t.ORDER] == [15, 12, 8, 5, 5, 3, 3]
+    # inventory marks "banged up" as weapon-mediated; thesis reports 11 (DISCREPANCIES F3)
+    assert rows["TOTAL"]["weapon_mediated"] == 12
+
+
+def test_table_9_10_i_dont_4grams_match_corpus():
+    import collections
+    exp = {r["Type"]: int(float(r["Freq"])) for r in csv.DictReader((ROOT / "data/tool_exports/antconc/i_dont_4grams.csv").open(encoding="utf-8"))}
+    from _corpus import tokens
+    c = collections.Counter()
+    for text in load_corpus().values():
+        tk = tokens(text, split_clitics=False)
+        for a, b, d in zip(tk, tk[1:], tk[2:]):
+            if a == "i" and b == "don't":
+                c[d] += 1
+    for w in ("want", "know", "care", "need", "give"):
+        assert c[w] == exp[f"i don t {w}"]

@@ -1,0 +1,11 @@
+level,code,linguistic_markers,ideological_function,theoretical_terminology,planned_quantification
+1. Pragmatics,DIRECTIVE,"Imperatives (Tell him, Do it, Go); No ""please""; High pitch verbs.",Patriarchy: Enacting hierarchy; removing subordinate agency.,Bald On Record (Brown & Levinson); Directive (Searle).,Count Frequency (Directives vs. others)
+1. Pragmatics,THREAT,"Conditional structures (""If you don't... then...""); ""Promise""; Future tense violence.","Honor: Restoring ""Face"" after a debt/insult; Transactional violence.",Commissives; Conditionality; Futurity (Muschalik).,"Count ""If... Then"" structures"
+1. Pragmatics,VAGUENESS,"""This thing,"" ""The situation,"" ""Him"" (no name), Passive voice (""We got notified"").",Omertà: Information control; Exclusion of the State/Outsiders.,Violation of Maxim of Quantity (Grice); Ellipsis.,Count vague referents vs. proper names
+2. Syntax,PRONOUN_I,"I, Me, My, Mine (usually with command verbs).",Patriarchy: Claiming authority/credit.,Deixis; Agency.,Sentiment Analysis (In-group)
+2. Syntax,PRONOUN_WE,"We, Us, Our (usually with violence verbs).",Brotherhood: Diffusing responsibility; Collective guilt.,Collectivization (van Dijk).,Sentiment Analysis (In-group)
+2. Syntax,PRONOUN_THEY,"He, Him, They, Them (usually targets).",Exclusion: Distancing the victim.,Distanciation; Othering.,Sentiment Analysis (Out-group)
+2. Syntax,DEONTIC,"Must, Have to, Gotta, Better, Supposed to.",Internal Law: Turning desire into obligation; Lack of choice.,Deontic Modality (Obligation).,Modal Ratio (Deontic vs Epistemic)
+3. Lexico-Sem,VIOLENCE,"Whack, Maim, Blast, Punch, Hit, Break.","Relexicalization: Violence as ""work"" or ""duty.""",Overlexicalization (Halliday).,"Collocation Network (connect to ""Pay"")"
+3. Lexico-Sem,BIZ_METAPHOR,"Pay, Owe, Debt, Shorts me, Price.",Framing: Justifying violence as economic necessity.,Conceptual Metaphor (Business is War).,"Collocation Network (connect to ""Kill"")"
+3. Lexico-Sem,DYSPHEMISM,"Mutt, Jew, Motherfucker, Cocksucker.","Dehumanization: Legitimizing harm against the ""Other.""",Ideological Square (Negative Other).,Sentiment Analysis Score

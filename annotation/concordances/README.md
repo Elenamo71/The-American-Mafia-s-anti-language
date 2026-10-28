@@ -18,6 +18,13 @@ Markdown italics in Appendix L removed; `EDNY_005_` normalised to `EDNY_005`).
 These tables are a **bridge**. They document what the thesis printed, but they are
 not the analyst's working data.
 
+## Recovered from the working spreadsheets
+
+| File | Content |
+|---|---|
+| `violence_verbs_inventory.csv` | 31 verb types with token counts and weapon mediation, plus the Table 9.5 semantic field; 28 are in Table 9.5 (*bother*, *die/dying*, *rob* excluded) |
+| `violence_verbs_candidates.csv` | Every corpus line matching one of the 31 verbs (113 lines). **To complete:** fill `counted_in_table_9_5` (yes/no) and `weapon_mediated` so the 51 counted tokens are identifiable |
+
 ## To deposit (authoritative exports)
 
 | File | Content |
