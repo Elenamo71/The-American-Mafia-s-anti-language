@@ -1,6 +1,6 @@
 # CATMA project export (to deposit)
 
-Export from CATMA 7.2.3: *Project → Export → TEI (stand-off)*, including every
+Exported from CATMA 7.2.3: *Project → Export → TEI (stand-off)*, including every
 document and every annotation collection used in Chapter 8.
 
 * Keep the document names identical to the `file_id`s (`CA2C_001`, …).
