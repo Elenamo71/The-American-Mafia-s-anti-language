@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/reference/
+
+# Answer key for the blind second-coder study: commit only AFTER coding is complete
+# (regenerate with: python code/draw_reliability_sample.py --seed 2026)
+annotation/reliability/sample_key.csv

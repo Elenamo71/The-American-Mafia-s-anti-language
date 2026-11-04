@@ -1,0 +1,9 @@
+semantic_field,tokens,pct_tokens,per_10k_words,types,weapon_mediated,verbs
+corrective,15,29.4,10.7,6,1,banged up; fuck up; hurt; punish; rough up; straighten out
+blunt assault,12,23.5,8.5,6,6,crack; hit; jumped all over; kick; pipe; punch
+lethal,8,15.7,5.7,6,2,blast; hang; kill; put in the ground; throw off; whack
+severe harm,5,9.8,3.6,4,0,crush; maim; pummel; put in a coma
+edged-piercing,5,9.8,3.6,3,3,cut; rip; stab
+asphyxiation,3,5.9,2.1,1,0,choke
+generic/precursor,3,5.9,2.1,2,0,fight; surround
+TOTAL,51,100.0,36.2,28,12,

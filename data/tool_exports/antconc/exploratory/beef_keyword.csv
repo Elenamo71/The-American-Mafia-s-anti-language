@@ -1,0 +1,2 @@
+Type,POS,Headword,Rank,Freq_Tar,Freq_Ref,Range_Tar,Range_Ref,NormFreq_Tar,NormFreq_Ref,NormRange_Tar,NormRange_Ref,Keyness (Likelihood),Keyness (Effect)
+beef,None,None,1,7,12,2,8,527267,11789,0.133,0.016,36241,0.001

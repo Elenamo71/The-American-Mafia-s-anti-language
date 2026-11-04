@@ -1,0 +1,5 @@
+Collocate,Rank,Freq(Scaled),FreqLR,FreqL,FreqR,Range,Likelihood,Effect
+club,1,30,2,1,1,2,15582,6982
+with,2,870,5,0,5,1,15132,3446
+no,3,490,4,2,2,1,14667,3953
+had,4,350,3,2,1,1,11238,4023

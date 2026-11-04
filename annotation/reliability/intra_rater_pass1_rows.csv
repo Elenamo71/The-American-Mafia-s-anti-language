@@ -1,0 +1,21 @@
+row,file_id,speaker,role,utterance_or_description,verbatim_status,speech_act,modal_orientation,org_context
+1,CA2C_001,Peter Gotti,Acting Boss (Gambino),"""I'm gonna tell him... he's gonna have to do it.""",not in transcripts,Commissive,Prospective,Intra-Family
+2,EDNY_001,Vito Difalco,Soldier (Colombo),"""I'm gonna make him punish you while I'm punishing you.""",verbatim,Commissive,Prospective,Intra-Family
+3,EDNY_002,Michael D’Urso,CW / Associate,"""They're gonna start telling people you have to take it.""",not in transcripts,Directive,Prospective,Intra-Family
+4,EDNY_003,Andrew Russo,Acting Boss (Colombo),[Conspiracy to Extort the Gambino Family],paraphrase,Commissive,Prospective,Inter-Family
+5,EDNY_004,William Scotto,Member (Gambino),Implied threats regarding 'Extortion',paraphrase,Commissive,Prospective,Intra-Family
+6,EDNY_005,Glenn Mazzella,Associate (Genovese),"""If there's ever any place where we can squeeze somebody...""",verbatim,Directive,Prospective,Intra-Family
+7,EDNY_006,Vito Rappa,Member (Gambino),"""I'm gonna cut you in half... I'm gonna chop you up.""",not in transcripts,Commissive,Prospective,Intra-Family
+8,EDNY_006,Diego Tantillo,Member (Gambino),"""I should've just let him... I should've cracked him.""",not in transcripts,Commissive,Retrospective,Intra-Family
+9,EDNY_007,Vincent Asaro,Captain (Bonanno),"""You're a made man, you gotta do what you're told.""",not in transcripts,Directive,Prospective,Intra-Family
+10,EDNY_007,Thomas Di Fiore,Acting Boss (Genovese),"[Dispute resolution regarding ""Bazoo""]",paraphrase,Directive,Other (Present),Inter-Family
+11,EDNY_008,Charles Carneglia,Member (Gambino),"""You will see what happens... I'm gonna dissolve you.""",not in transcripts,Commissive,Prospective,Intra-Family
+12,EDNY_009,Saladino,Member (Bonanno),"""I'll go over there right now and I'll straighten that out.""",verbatim,Commissive,Prospective,Intra-Family
+13,EDNY_010,Vincent Dragonetti,Member (Gambino),"""If you do that, you’re never gonna get nowhere.""",verbatim,Commissive,Prospective,Intra-Family
+14,EDNY_011,Dominic Cefalu,Member (Gambino),Demand for 60% of profits,paraphrase,Directive,Other (Present),
+15,NJ_001,Sal Pelullo,Associate (Lucchese),"""You're killing me.""",verbatim,Directive,Other (Present),Intra-Family
+16,NJ_002,Stephen Depiro,Acting Capo (Genovese),"[Demands for Christmas ""Tribute""]",paraphrase,Directive,Prospective,Intra-Family
+17,PE_001,Joseph Massimino,Consigliere (Phila),"[The ""Summons"" regarding unpaid debt]",paraphrase,Directive,Other (Present),Intra-Family
+18,PE_002,"Anthony Staino, Jr.",Member (Phila),Participation in M&P Vending and money laundering,paraphrase,Commissive,Retrospective,Intra-Family
+19,PE_003,Steven Mazzone,Underboss (Phila),[Oversight of Capos and Soldiers],paraphrase,Directive,Prospective,Intra-Family
+20,SDNY_001,Pasquale Parrello,Captain (Genovese),"""He should've known better.""",not in transcripts,Commissive,Retrospective,Intra-Family

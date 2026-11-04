@@ -1,0 +1,14 @@
+measure,value,note
+deontic_rows_printed_appendix_L,157,all rows printed in Appendix L
+deontic_excluding_supposed_to,151,matches the 151 reported in § 9.4
+epistemic_rows_printed_appendix_M,39,thesis reports 40
+ratio_deontic_epistemic_reported_rule,3.77,151/40 as in § 9.4
+ratio_deontic_epistemic_printed_rows,4.03,157/39 from printed appendices
+high_value_deontic,134,Strong + Prohibition + Threat (better) + Certainty/Command; thesis 134
+median_low_deontic_excl_supposed_to,17,can + should + need to; thesis 17
+gotta_got_to_rows,65,thesis 65
+must_rows,1,thesis 1
+better_rows,10,thesis 10
+I_tokens_corpus,667,thesis 673
+we_tokens_corpus,141,thesis 141
+ratio_I_we_corpus,4.73,thesis 4.8

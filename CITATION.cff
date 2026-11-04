@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the dataset and the dissertation."
+title: "The American Mafia's Anti-Language: Corpus, Annotation Scheme, and Analysis Code"
+type: dataset
+version: 1.0.0
+authors:
+  - family-names: Morandini
+    given-names: Elena
+    affiliation: Universidad de Alicante
+    # orcid: https://orcid.org/0000-0000-0000-0000
+repository-code: "https://github.com/Elenamo71/The-American-Mafia-s-anti-language"
+# doi: 10.5281/zenodo.XXXXXXX
+license: CC-BY-4.0
+keywords: [anti-language, forensic linguistics, critical discourse analysis, corpus linguistics, RICO, organized crime]
+preferred-citation:
+  type: thesis
+  thesis-type: "Doctoral dissertation"
+  title: "The American Mafia's anti-language: A mixed-methods approach"
+  authors:
+    - family-names: Morandini
+      given-names: Elena
+  institution:
+    name: Universidad de Alicante
+  year: 2026

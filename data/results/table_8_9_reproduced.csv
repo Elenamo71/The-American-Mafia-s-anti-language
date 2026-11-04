@@ -1,0 +1,2 @@
+comparison,a,b,c,d,fisher_p_two_sided,chi2_pearson,chi2_p,chi2_yates,chi2_yates_p,G2_loglik,G2_p,OR_conditional_mle,OR_conditional_ci_low,OR_conditional_ci_high,OR_sample,OR_sample_woolf_low,OR_sample_woolf_high,OR_haldane,OR_haldane_woolf_low,OR_haldane_woolf_high
+Mafia vs SBCSAE: unmitigated/mitigated directives,146,3,10,78,0.0,184.532777,0.0,180.702338,0.0,212.720477,0.0,353.006002,93.800968,2053.220387,379.6,101.489396,1419.814933,312.931973,90.522159,1081.79501
